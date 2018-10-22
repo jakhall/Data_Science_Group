@@ -1,2 +1,2 @@
-# Data_Science_Group
+# Southampton_Analytica
 Group project for foundations of data science
