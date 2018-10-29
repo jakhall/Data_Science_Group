@@ -5,7 +5,7 @@ import feather
 
 #Specify the path to the feather. Will print all reviews in the text field.
 def main():
-    path = 'D:/reviews1.feather'
+    path = 'C:/example/data.feather'
     featherData = loadFeather(path)
     print(featherData['text'])
 

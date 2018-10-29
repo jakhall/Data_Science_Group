@@ -7,7 +7,7 @@ import json
 
 #Specify the input json file, and the output feather file location.
 def main():
-    input = 'C:/example/input.feather'
+    input = 'C:/example/input.json'
     output = 'C:/example/output.feather'
     writeFeather(frameBuilder(input), output)
     featherData = loadFeather(output)
